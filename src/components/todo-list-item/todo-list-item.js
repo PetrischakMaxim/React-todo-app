@@ -44,7 +44,7 @@ const TodoListItem = ({
           <i className="fa fa-trash-o" />
         </button>
       </span>
-  );
+  )
 }
 
 export default TodoListItem;

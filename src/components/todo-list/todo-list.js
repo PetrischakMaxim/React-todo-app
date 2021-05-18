@@ -22,14 +22,14 @@ const TodoList = ({
           onToggleDone = {() => onToggleDone(id)}
         />
       </li>
-    );
-  });
+    )
+  })
 
   return (
     <ul className="list-group todo-list">
       { elements }
     </ul>
-  );
+  )
 };
 
 export default TodoList;
